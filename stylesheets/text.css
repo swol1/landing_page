@@ -1,0 +1,57 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+  color: white;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.title-large {
+  font-weight: bolder;
+  font-size: 70px;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-weight: lighter;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.text-large {
+  font-size: 45px;
+}
+
+.text-medium {
+  font-size: 35px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-small {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.text-right {
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-large {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  .title {
+    font-weight: lighter;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,47 @@
+.button, .left-button-price, .right-button-price {
+  background: transparent;
+  outline: none;
+  transition: all 0.3s ease;
+  width: 150px;
+  display: inline-block;
+  border-radius: 30px;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  padding: 12px 30px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+.btn-1 {
+  border: 2px solid white;
+}
+
+.btn-1:hover {
+  background: #000;
+  border: 2px solid lightgrey;
+}
+
+.btn-2 {
+  border: 2px solid #feb236;
+}
+
+.btn-2:hover {
+  background: #000;
+  color: #FF851B;
+  border: 2px solid #FF851B;
+}
+
+.btn-3 {
+  border: 2px solid grey;
+  color: lightgrey;
+}
+
+.btn-3:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+.btn-1:active, .btn-2:active, .btn-3:active {
+  top: 2px;
+}

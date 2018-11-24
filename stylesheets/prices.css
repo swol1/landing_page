@@ -1,0 +1,82 @@
+.price-block {
+  padding: 60px 0;
+  background: #0e1111;
+}
+
+.price-list {
+  height: 150px;
+  list-style-type: none;
+}
+
+.price {
+  margin: auto;
+  padding: auto;
+  width: 350px;
+  height: 500px;
+  border: 1px solid #eee;
+}
+
+.price-head, .price {
+  max-width: 350px;
+  border-radius: 3px;
+  background-color: black;
+  color: white;
+}
+
+.price-head {
+  font-size: 40px;
+  border-bottom: 1px solid white;
+}
+
+.price li {
+  margin-top: 25px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.border-1px {
+  border-bottom: 1px solid white;
+}
+
+.footer {
+  margin: auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.left-button-price:active, .right-button-price:active {
+  top: 2px;
+}
+
+.left-button-price, .right-button-price {
+  border: 2px solid grey;
+  color: lightgrey;
+  width: 120px;
+}
+
+.left-button-price:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+.left-button-price:hover {
+  border: 2px solid white;
+  color: white;
+}
+
+.right-button-price {
+  border: 2px solid #FF851B;
+}
+
+.right-button-price:hover {
+  color: #fef4bf;
+  border: 2px solid #feb236;
+}
+
+.left-button-price:active, .right-button-price:active {
+  top: 2px;
+}
+
+.gold-color {
+  color: #feb236;
+}

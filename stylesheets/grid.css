@@ -1,0 +1,59 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container:after {
+  content: "";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.info-block, .main-block {
+  padding: 60px;
+}
+
+.main-block {
+  background: #000;
+}
+
+.info-block {
+  background: #0e1111;
+}
+
+.indent-top {
+  padding-top: 15px;
+}
+
+.buffer-top {
+  margin-top: 30px;
+}
+
+.buffer-bottom {
+  margin-bottom: 50px;
+}
+
+.left-column, .right-column {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+}
+
+.left-column {
+  padding: 20px 65px 20px 20px;
+}
+
+.right-column {
+  padding: 20px 20px 20px 65px;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-column, .right-column {
+    width: auto;
+    float: none;
+    padding: 0;
+  }
+}
