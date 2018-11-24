@@ -1,5 +1,5 @@
 .main-background {
-  background-image: url("../images/gg2.jpg");
+  background-image: url("../gg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -13,9 +13,19 @@
   max-height: 300px;
 }
 
+.album-image {
+  max-width: 350px;
+  max-height: 350px;
+}
+
 @media only screen and (max-width: 600px) {
   .map-image{
     max-width: 300px;
     max-height: 200px;
+  }
+
+  .album-image {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
