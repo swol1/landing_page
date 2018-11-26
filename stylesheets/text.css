@@ -15,10 +15,16 @@ p {
   margin-bottom: 60px;
 }
 
-.title {
+.title-medium {
   font-weight: lighter;
   font-size: 45px;
   margin-bottom: 30px;
+}
+
+.title-small {
+  font-weight: normal;
+  font-size: 35px;
+  margin-bottom: 20px;
 }
 
 .text-large {
